@@ -51,5 +51,5 @@ export const useFooStore = defineStore('formStore', () => {
 
 
 
-    return { fooElement, initFooElement, selectElement1, selectElement2, selectStateElement1, selectStateElement2 };
+    return { fooElement, selectedElement1, selectedElement2, selectedState1, selectedState2, initFooElement, selectElement1, selectElement2, selectStateElement1, selectStateElement2 };
 });
